@@ -33,7 +33,7 @@ const Pandemic = () => {
                     {`This is a 3D game project me and my friend made when we 
                     finished a Game Development course at Camosun. The game 
                     was inspirated by the COVID-19 pandemic in 2020. Player 
-                    will roleplaying a police officer going around the city 
+                    will roleplay a police officer going around the city 
                     and shoots facemasks to patients in order to cure them and 
                     prevent the virus from spreading to the community.`}
                 </p>

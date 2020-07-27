@@ -32,9 +32,9 @@ const TukTukHeaven = () => {
                 <p>
                     {`This is also a small project I made after finished a 
                     Web Development course. This is a singple page website 
-                    was built on HTML, CSS, and Bootstrap. It represent a 
-                    imagination store that sells tuk tuk. It doesn't has any 
-                    back-end, it just simple displaying the products, price, 
+                    that was built on HTML, CSS, and Bootstrap. It represents an 
+                    imagination store that sells tuk tuk. It doesn't have any 
+                    back-end, it just simply displaying the products, price, 
                     and some informations`}
                 </p>
                 <a

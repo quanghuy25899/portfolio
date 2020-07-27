@@ -31,11 +31,12 @@ const PizzaPalace = () => {
             <Modal visible={modalOpen} title="Pizza Palace" onCancel={handleModalClose} footer={null}>
                 <p>
                     {`This is a small project I made after finished a 
-                    Web Development course. It just a simple website that 
-                    used HTML, CSS, Bootstrap, PHP, and Google Map plugin to represent 
-                    a random pizza website that doesn't exist. The website's 
-                    back-end is running on PHP and it could handle the pizza 
-                    ordering process but you will never receive your pizza.`}
+                    Web Development course at Camosun. It just a simple website 
+                    that used HTML, CSS, Bootstrap, PHP, and Google Map plugin to 
+                    represent a random pizza website that doesn't exist. The 
+                    website's back-end is running on PHP and it could handle 
+                    the pizza ordering process but you will never receive your 
+                    pizza.`}
                 </p>
                 <a
                     href="http://deepblue.cs.camosun.bc.ca/~ics057/ics111/lab04/PizzaPalace/index.html"

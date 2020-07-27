@@ -42,8 +42,8 @@ const Capstone = () => {
                     - HTML <br />
                     - CSS <br />
                     - JavaScript <br />
-                    - ReactJS <br />
-                    - NextJS <br />
+                    - React.js <br />
+                    - Next.js <br />
                     - AntDesign library <br />
                     - Bulma library <br />
                     - Axios library <br />
@@ -51,7 +51,8 @@ const Capstone = () => {
                 <div>Back-end:</div>
                 <div style={{ marginLeft: 30 }}>
                     - TypeScript <br />
-                    - NodeJS <br />
+                    - Node.js <br />
+                    - Express.js <br />
                 </div>
                 <div>Database:</div>
                 <div style={{ marginLeft: 30 }}>- SQL database</div>
