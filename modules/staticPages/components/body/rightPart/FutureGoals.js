@@ -2,7 +2,7 @@ import React from 'react';
 
 const FutureGoals = () => {
     return (
-        <div className="section-margin">
+        <div id="future-goals" className="section-margin">
             <p className="title">Future Goals</p>
             <p>
                 - Improve front-end and back-end programming skills. <br />

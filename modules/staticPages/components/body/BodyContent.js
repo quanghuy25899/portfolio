@@ -37,17 +37,17 @@ const BodyContent = () => {
     return (
         <StyledBodyWrapper>
             <div id="left-part" style={{ marginTop: 30 }}>
-                <Social id="social" />
-                <Bio id="bio" />
-                <Skills id="skills" />
-                <Languages id="languages" />
+                <Social />
+                <Bio />
+                <Skills />
+                <Languages />
             </div>
             <div id="right-part" style={{ marginLeft: 60, marginTop: 30 }}>
-                <Profile id="profile" />
-                <Education id="education" />
-                <Internships id="internships" />
-                <Achievements id="achievements" />
-                <FutureGoals id="future-goals" />
+                <Profile />
+                <Education />
+                <Internships />
+                <Achievements />
+                <FutureGoals />
             </div>
         </StyledBodyWrapper>
     );

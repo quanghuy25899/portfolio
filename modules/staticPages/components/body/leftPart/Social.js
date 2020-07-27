@@ -3,7 +3,7 @@ import { LinkedinOutlined } from '@ant-design/icons';
 
 const Social = () => {
     return (
-        <div>
+        <div id="social">
             <LinkedinOutlined />
             &nbsp;
             <a href="https://www.linkedin.com/in/quang-huy-pham-04a82a16b" target="_blank" rel="noreferrer">

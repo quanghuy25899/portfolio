@@ -2,7 +2,7 @@ import React from 'react';
 
 const Internships = () => {
     return (
-        <div className="section-margin">
+        <div id="internships" className="section-margin">
             <p className="title">Internships</p>
             <p className="has-text-bold">Volunteer at GetSmart Solutions Inc, Victoria, BC, Canada</p>
             <p>August 2019 - September 2019</p>

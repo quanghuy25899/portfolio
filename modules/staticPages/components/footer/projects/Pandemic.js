@@ -38,7 +38,7 @@ const Pandemic = () => {
                     prevent the virus from spreading to the community.`}
                 </p>
                 <img alt="Pandemic 1" src="static/img/Pandemic1.png" style={{ marginBottom: 20 }} />
-
+                <div className="divider" />
                 <img alt="Pandemic 2" src="static/img/Pandemic2.png" style={{ marginBottom: 20 }} />
             </Modal>
         </>

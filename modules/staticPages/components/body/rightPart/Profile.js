@@ -2,7 +2,7 @@ import React from 'react';
 
 const Profile = () => {
     return (
-        <div className="section-margin">
+        <div id="profile" className="section-margin">
             <p className="title">Profile</p>
             <p>
                 Huy has just finished Information and Computer Systems program at Camosun College. In the last two years

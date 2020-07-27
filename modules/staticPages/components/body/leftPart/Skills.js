@@ -4,7 +4,7 @@ import { ProgressBar } from 'modules/core/components';
 
 const Skills = () => {
     return (
-        <div style={{ marginTop: 30 }}>
+        <div id="skills" style={{ marginTop: 30 }}>
             <p className="has-text-bold">Skills</p>
             <p>Front-end Web Development</p>
             <ProgressBar stepsCompleted={3} totalSteps={5} />

@@ -46,7 +46,7 @@ const TukTukHeaven = () => {
                     Checkout the website here.
                 </a>
                 <img alt="Tuk Tuk Heaven Home" src="static/img/TukTukHeavenHome.png" style={{ marginBottom: 20 }} />
-
+                <div className="divider" />
                 <img
                     alt="Tuk Tuk Heaven Product"
                     src="static/img/TukTukHeavenProducts.png"

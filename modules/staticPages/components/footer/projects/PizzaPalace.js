@@ -46,9 +46,9 @@ const PizzaPalace = () => {
                     Checkout the website here.
                 </a>
                 <img alt="Pizza Palace Home" src="static/img/PizzaPalaceHome.png" style={{ marginBottom: 20 }} />
-
+                <div className="divider" />
                 <img alt="Pizza Palace Menu" src="static/img/PizzaPalaceMenu.png" style={{ marginBottom: 20 }} />
-
+                <div className="divider" />
                 <img alt="Pizza Palace Order" src="static/img/PizzaPalaceOrder.png" style={{ marginBottom: 20 }} />
             </Modal>
         </>

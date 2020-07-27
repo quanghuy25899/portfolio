@@ -35,9 +35,9 @@ const GameJam = () => {
                     was about a dog got lost and had to find his way to home.`}
                 </p>
                 <img alt="Game Jam 1" src="static/img/GameJam1.png" style={{ marginBottom: 20 }} />
-
+                <div className="divider" />
                 <img alt="Game Jam 2" src="static/img/GameJam2.png" style={{ marginBottom: 20 }} />
-
+                <div className="divider" />
                 <img alt="Game Jam 3r" src="static/img/GameJam3.png" style={{ marginBottom: 20 }} />
             </Modal>
         </>
