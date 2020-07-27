@@ -1,0 +1,60 @@
+import React, { useState } from 'react';
+import { EllipsisOutlined } from '@ant-design/icons';
+import { Card, Modal } from 'antd';
+
+const { Meta } = Card;
+
+const TukTukHeaven = () => {
+    const [modalOpen, setModalOpen] = useState(false);
+
+    const handleOnClick = () => {
+        setModalOpen(true);
+    };
+
+    const handleModalClose = () => {
+        setModalOpen(false);
+    };
+
+    return (
+        <>
+            <Card
+                title="Tuk Tuk Heaven"
+                style={{ width: 300 }}
+                cover={<img alt="Tuk Tuk Heaven Home" src="static/img/TukTukHeavenHome.png" />}
+                actions={[<EllipsisOutlined key="ellipsis" onClick={() => handleOnClick()} />]}
+                headStyle={{ fontWeight: 'bold' }}
+                hoverable
+                bordered
+            >
+                <Meta description="A small project to practice making single page application using HTML, CSS, and Bootstrap" />
+            </Card>
+            <Modal visible={modalOpen} title="Pizza Palace" onCancel={handleModalClose} footer={null}>
+                <p>
+                    {`This is also a small project I made after finished a 
+                    Web Development course. This is a singple page website 
+                    was built on HTML, CSS, and Bootstrap. It represent a 
+                    imagination store that sells tuk tuk. It doesn't has any 
+                    back-end, it just simple displaying the products, price, 
+                    and some informations`}
+                </p>
+                <a
+                    href="http://deepblue.cs.camosun.bc.ca/~ics057/ics111/lab05/index.html"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ textDecoration: 'underline' }}
+                >
+                    Checkout the website here.
+                </a>
+                <img alt="Tuk Tuk Heaven Home" src="static/img/TukTukHeavenHome.png" style={{ marginBottom: 20 }} />
+
+                <img
+                    alt="Tuk Tuk Heaven Product"
+                    src="static/img/TukTukHeavenProducts.png"
+                    style={{ marginBottom: 20 }}
+                />
+            </Modal>
+        </>
+    );
+};
+
+export default TukTukHeaven;

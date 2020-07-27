@@ -1,0 +1,23 @@
+@font-face {
+	font-display: swap;
+    font-family: 'Quicksand-Regular';
+	src: url('./Quicksand/static/Quicksand-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-display: swap;
+    font-family: 'Quicksand-SemiBold';
+	src: url('./Quicksand/static/Quicksand-SemiBold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-display: swap;
+    font-family: 'Quicksand-Medium';
+	src: url('./Quicksand/static/Quicksand-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
