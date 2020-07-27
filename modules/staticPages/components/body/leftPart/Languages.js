@@ -8,6 +8,7 @@ const Languages = () => {
             <p className="has-text-bold">Languages</p>
             <p>Vietnamese</p>
             <ProgressBar stepsCompleted={5} totalSteps={5} />
+            <br />
             <p>English</p>
             <ProgressBar stepsCompleted={4} totalSteps={5} />
         </div>
