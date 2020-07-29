@@ -12,10 +12,10 @@ const Skills = () => {
             <p>JavaScript</p>
             <ProgressBar stepsCompleted={3} totalSteps={5} />
             <br />
-            <p>ReactJS / NextJS</p>
+            <p>React.JS / Next.JS</p>
             <ProgressBar stepsCompleted={3} totalSteps={5} />
             <br />
-            <p>VueJS / NuxtJS</p>
+            <p>Vue.JS / Nuxt.JS</p>
             <ProgressBar stepsCompleted={2} totalSteps={5} />
             <br />
             <p>Python</p>
