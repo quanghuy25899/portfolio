@@ -21,23 +21,17 @@ const StyledProcessNotComplete = styled.div`
 `;
 
 const ProgressBar = ({ stepsCompleted, totalSteps }) => {
-    const stepsCompletedArr = [];
-    const stepsNotCompleteArr = [];
+    const stepsArr = [];
 
     for (let i = 1; i <= stepsCompleted; i += 1) {
-        stepsCompletedArr.push(<StyledProcessCompleted />);
+        stepsArr.push(<StyledProcessCompleted />);
     }
 
     for (let i = 1; i <= totalSteps - stepsCompleted; i += 1) {
-        stepsNotCompleteArr.push(<StyledProcessNotComplete />);
+        stepsArr.push(<StyledProcessNotComplete />);
     }
 
-    return (
-        <StyledProgress>
-            {stepsCompletedArr.map(step => step)}
-            {stepsNotCompleteArr.map(step => step)}
-        </StyledProgress>
-    );
+    return <StyledProgress>{stepsArr.map(step => step)}</StyledProgress>;
 };
 
 export default ProgressBar;
