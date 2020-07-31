@@ -26,7 +26,7 @@ const TukTukHeaven = () => {
                 hoverable
                 bordered
             >
-                <Meta description="A small project to practice making single page application using HTML, CSS, and Bootstrap" />
+                <Meta description="A small project to practice making single page website" />
             </Card>
             <Modal visible={modalOpen} title="Pizza Palace" onCancel={handleModalClose} footer={null}>
                 <p>

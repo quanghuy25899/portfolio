@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Row, Col } from 'antd';
 
 import Social from './leftPart/Social';
 import Bio from './leftPart/Bio';
@@ -13,18 +14,13 @@ import Achievements from './rightPart/Achievements';
 import FutureGoals from './rightPart/FutureGoals';
 
 const StyledBodyWrapper = styled.div`
-    display: flex;
-
     a:link {
-        color: black;
         text-decoration: underline;
     }
     a:visited {
-        color: black;
         text-decoration: underline;
     }
     a:hover {
-        color: black;
         text-decoration: underline;
     }
     a:active {
@@ -36,19 +32,21 @@ const StyledBodyWrapper = styled.div`
 const BodyContent = () => {
     return (
         <StyledBodyWrapper>
-            <div id="left-part" style={{ marginTop: 30 }}>
-                <Social />
-                <Bio />
-                <Skills />
-                <Languages />
-            </div>
-            <div id="right-part" style={{ marginLeft: 60, marginTop: 30 }}>
-                <Profile />
-                <Education />
-                <Internships />
-                <Achievements />
-                <FutureGoals />
-            </div>
+            <Row gutter={[10, 30]} style={{ marginTop: 30 }}>
+                <Col id="left-part" xs={24} md={5} lg={7}>
+                    <Social />
+                    <Bio />
+                    <Skills />
+                    <Languages />
+                </Col>
+                <Col id="right-part" xs={24} md={19} lg={17}>
+                    <Profile />
+                    <Education />
+                    <Internships />
+                    <Achievements />
+                    <FutureGoals />
+                </Col>
+            </Row>
         </StyledBodyWrapper>
     );
 };
