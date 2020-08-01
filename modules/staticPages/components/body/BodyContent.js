@@ -15,12 +15,15 @@ import FutureGoals from './rightPart/FutureGoals';
 
 const StyledBodyWrapper = styled.div`
     a:link {
+        color: '4caf50';
         text-decoration: underline;
     }
     a:visited {
+        color: '4caf50';
         text-decoration: underline;
     }
     a:hover {
+        color: '4caf50';
         text-decoration: underline;
     }
     a:active {
