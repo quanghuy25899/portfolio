@@ -146,6 +146,15 @@ const Achievements = () => {
 
             <p>
                 {' '}
+                - Developed another e-portfolio using Nuxt.JS
+                <br />
+                <a href="https://brianpham.herokuapp.com" target="_blank" rel="noreferrer" style={{ marginLeft: 30 }}>
+                    E-portfolio
+                </a>
+            </p>
+
+            <p>
+                {' '}
                 - Developed a web application for Camosun Innovates to manage videos. It was my Capstone project at
                 Camosun College. I was in a team of three people and I was responsible for the front-end development of
                 the application.
