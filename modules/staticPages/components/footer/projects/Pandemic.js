@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { EllipsisOutlined } from '@ant-design/icons';
-import { Card, Modal } from 'antd';
+import { Card, Modal, Tooltip } from 'antd';
 
 const { Meta } = Card;
 
@@ -21,7 +21,11 @@ const Pandemic = () => {
                 title="Pandemic"
                 style={{ width: 300 }}
                 cover={<img alt="Pandemic" src="static/img/Pandemic1.png" />}
-                actions={[<EllipsisOutlined key="ellipsis" onClick={() => handleOnClick()} />]}
+                actions={[
+                    <Tooltip placement="top" title="More details">
+                        <EllipsisOutlined key="ellipsis" onClick={() => handleOnClick()} />
+                    </Tooltip>
+                ]}
                 headStyle={{ fontWeight: 'bold' }}
                 hoverable
                 bordered

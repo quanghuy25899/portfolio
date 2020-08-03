@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { EllipsisOutlined } from '@ant-design/icons';
-import { Card, Modal } from 'antd';
+import { Card, Modal, Tooltip } from 'antd';
 
 const { Meta } = Card;
 
@@ -21,7 +21,11 @@ const Capstone = () => {
                 title="Capstone Project"
                 style={{ width: 300 }}
                 cover={<img alt="Capstone Home" src="static/img/CapstoneHome.png" />}
-                actions={[<EllipsisOutlined key="ellipsis" onClick={() => handleOnClick()} />]}
+                actions={[
+                    <Tooltip placement="top" title="More details">
+                        <EllipsisOutlined key="ellipsis" onClick={() => handleOnClick()} />
+                    </Tooltip>
+                ]}
                 headStyle={{ fontWeight: 'bold' }}
                 hoverable
                 bordered
@@ -30,36 +34,22 @@ const Capstone = () => {
             </Card>
             <Modal visible={modalOpen} title="Capstone Project" onCancel={handleModalClose} footer={null}>
                 <p>
-                    {`This is my capstone project, which me and 2 other 
+                    {`This is my capstone project, which me and two other 
                     classmates have just finished this August of 2020. 
                     This is, so far, my biggest and most professional 
                     project. In this project, I was responsible for all of 
                     the front-end tasks.`}
                 </p>
-                <p className="has-text-bold">Technologies used</p>
-                <div>Front-end:</div>
-                <div style={{ marginLeft: 30 }}>
-                    - HTML <br />
-                    - CSS <br />
-                    - JavaScript <br />
-                    - React.js <br />
-                    - Next.js <br />
-                    - AntDesign library <br />
-                    - Bulma library <br />
-                    - Axios library <br />
-                </div>
-                <div>Back-end:</div>
-                <div style={{ marginLeft: 30 }}>
-                    - TypeScript <br />
-                    - Node.js <br />
-                    - Express.js <br />
-                </div>
-                <div>Database:</div>
-                <div style={{ marginLeft: 30 }}>- SQL database</div>
                 {/* <a href="#" target="_blank" rel="noreferrer" style={{ textDecoration: 'underline' }}>
                     Checkout the website here.
                 </a> */}
                 <img alt="Capstone Home" src="static/img/CapstoneHome.png" style={{ marginBottom: 20 }} />
+                <div className="divider" />
+                <img
+                    alt="Capstone Video Details"
+                    src="static/img/CapstoneVideoDetails.png"
+                    style={{ marginBottom: 20 }}
+                />
                 <div className="divider" />
                 <img alt="Capstone Playlists" src="static/img/CapstonePlaylists.png" style={{ marginBottom: 20 }} />
                 <div className="divider" />
@@ -72,12 +62,6 @@ const Capstone = () => {
                 <img alt="Capstone Profile" src="static/img/CapstoneProfile.png" style={{ marginBottom: 20 }} />
                 <div className="divider" />
                 <img alt="Capstone Users" src="static/img/CapstoneUsers.png" style={{ marginBottom: 20 }} />
-                <div className="divider" />
-                <img
-                    alt="Capstone Video Details"
-                    src="static/img/CapstoneVideoDetails.png"
-                    style={{ marginBottom: 20 }}
-                />
             </Modal>
         </>
     );
