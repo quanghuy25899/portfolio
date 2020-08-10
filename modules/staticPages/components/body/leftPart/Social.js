@@ -6,7 +6,7 @@ const Social = () => {
         <div id="social">
             <LinkedinOutlined />
             &nbsp;
-            <a href="https://www.linkedin.com/in/quang-huy-pham-04a82a16b" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/brian25/" target="_blank" rel="noreferrer">
                 LinkedIn
             </a>
         </div>

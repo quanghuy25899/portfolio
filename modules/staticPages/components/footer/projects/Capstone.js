@@ -26,6 +26,7 @@ const Capstone = () => {
                         <EllipsisOutlined key="ellipsis" onClick={() => handleOnClick()} />
                     </Tooltip>
                 ]}
+                onClick={() => handleOnClick()}
                 headStyle={{ fontWeight: 'bold' }}
                 hoverable
                 bordered
@@ -40,28 +41,44 @@ const Capstone = () => {
                     project. In this project, I was responsible for all of 
                     the front-end tasks.`}
                 </p>
-                {/* <a href="#" target="_blank" rel="noreferrer" style={{ textDecoration: 'underline' }}>
+                <a
+                    href="https://portal.witnessblanket.ca/login"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ textDecoration: 'underline' }}
+                >
                     Checkout the website here.
-                </a> */}
+                </a>
                 <img alt="Capstone Home" src="static/img/CapstoneHome.png" style={{ marginBottom: 20 }} />
                 <div className="divider" />
+
                 <img
                     alt="Capstone Video Details"
                     src="static/img/CapstoneVideoDetails.png"
                     style={{ marginBottom: 20 }}
                 />
                 <div className="divider" />
+
                 <img alt="Capstone Playlists" src="static/img/CapstonePlaylists.png" style={{ marginBottom: 20 }} />
                 <div className="divider" />
+
                 <img
                     alt="Capstone Playlist Videos"
                     src="static/img/CapstonePlaylistVideos.png"
                     style={{ marginBottom: 20 }}
                 />
                 <div className="divider" />
-                <img alt="Capstone Profile" src="static/img/CapstoneProfile.png" style={{ marginBottom: 20 }} />
+
+                <img alt="Capstone Categories" src="static/img/CapstoneCategories.png" style={{ marginBottom: 20 }} />
                 <div className="divider" />
+
+                <img alt="Capstone Curation" src="static/img/CapstoneCuration.png" style={{ marginBottom: 20 }} />
+                <div className="divider" />
+
                 <img alt="Capstone Users" src="static/img/CapstoneUsers.png" style={{ marginBottom: 20 }} />
+                <div className="divider" />
+
+                <img alt="Capstone Profile" src="static/img/CapstoneProfile.png" style={{ marginBottom: 20 }} />
             </Modal>
         </>
     );

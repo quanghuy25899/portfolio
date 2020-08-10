@@ -26,6 +26,7 @@ const Pandemic = () => {
                         <EllipsisOutlined key="ellipsis" onClick={() => handleOnClick()} />
                     </Tooltip>
                 ]}
+                onClick={() => handleOnClick()}
                 headStyle={{ fontWeight: 'bold' }}
                 hoverable
                 bordered

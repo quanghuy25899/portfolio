@@ -60,15 +60,36 @@ const Achievements = () => {
                     <br />- React Redux
                 </div>
             ],
-            backEnd: [],
-            databasse: []
+            backEnd: [
+                <div>
+                    - Open API
+                    <br />- Vimeo Developer API
+                    <br />- Vimeo SDK for Node.JS
+                </div>
+            ],
+            database: 'None'
         },
         {
             key: '3',
-            sections: 'Source-code editor',
-            frontEnd: 'Visual Studio Code',
-            backEnd: [],
-            database: 'MySQL Developer'
+            sections: 'Source-code editor and other tools',
+            frontEnd: [
+                <div>
+                    - Visual Studio Code
+                    <br />- Postman API client
+                </div>
+            ],
+            backEnd: [
+                <div>
+                    - Vim
+                    <br />- Postman API client
+                </div>
+            ],
+            database: [
+                <div>
+                    - MySQL Developer
+                    <br />- Visual Studio Code
+                </div>
+            ]
         }
     ];
 
@@ -78,7 +99,6 @@ const Achievements = () => {
             <p>September 2018 - August 2020</p>
 
             <p>
-                {' '}
                 - Developed and maintaining three websites using HTML, CSS, Bootstrap, JavaScript and Php.
                 <br />
                 <a
@@ -108,7 +128,6 @@ const Achievements = () => {
             </p>
 
             <p>
-                {' '}
                 - Took part in Global Game Jam 2019 and created a 2D game with another classmate using Unity and C#.
                 <br />
                 <a
@@ -122,7 +141,6 @@ const Achievements = () => {
             </p>
 
             <p>
-                {' '}
                 - Finished a game development course and created a 3D game with another classmate using Unity and C#.
                 <br />
                 <a
@@ -136,7 +154,6 @@ const Achievements = () => {
             </p>
 
             <p>
-                {' '}
                 - Maintaining a Wordpress website for a local restaurant.
                 <br />
                 <a href="http://phovictoria.com/" target="_blank" rel="noreferrer" style={{ marginLeft: 30 }}>
@@ -145,7 +162,6 @@ const Achievements = () => {
             </p>
 
             <p>
-                {' '}
                 - Developed another e-portfolio using Nuxt.JS
                 <br />
                 <a href="https://brianpham.herokuapp.com" target="_blank" rel="noreferrer" style={{ marginLeft: 30 }}>
@@ -154,10 +170,18 @@ const Achievements = () => {
             </p>
 
             <p>
-                {' '}
                 - Developed a web application for Camosun Innovates to manage videos. It was my Capstone project at
                 Camosun College. I was in a team of three people and I was responsible for the front-end development of
                 the application.
+                <br />
+                <a
+                    href="https://portal.witnessblanket.ca/login"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ marginLeft: 30 }}
+                >
+                    Capstone project
+                </a>
                 <br />
                 Technologies used:
                 <Table columns={columns} dataSource={data} pagination={false} style={{ marginTop: 10 }} />
