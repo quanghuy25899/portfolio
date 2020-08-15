@@ -7,20 +7,20 @@ import FooterContent from './footer/FooterContent';
 
 const StyledBodyWrapper = styled.div`
     a:link {
-        color: #4caf50;
-        text-decoration: underline;
+        color: #4caf50 !important;
+        text-decoration: underline !important;
     }
     a:visited {
-        color: #4caf50;
-        text-decoration: underline;
+        color: #4caf50 !important;
+        text-decoration: underline !important;
     }
     a:hover {
-        color: #4caf50;
-        text-decoration: underline;
+        color: #4caf50 !important;
+        text-decoration: underline !important;
     }
     a:active {
-        color: #bfbfbf;
-        text-decoration: underline;
+        color: #bfbfbf !important;
+        text-decoration: underline !important;
     }
 `;
 
