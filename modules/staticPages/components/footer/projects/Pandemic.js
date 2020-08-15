@@ -34,7 +34,7 @@ const Pandemic = () => {
                 <Meta description="A small 3D game project on Unity written on C#" />
             </Card>
             <Modal visible={modalOpen} title="Pandemic" onCancel={handleModalClose} footer={null}>
-                <p>
+                <p style={{ marginBottom: 20 }}>
                     {`This is a 3D game project me and my friend made when we 
                     finished a Game Development course at Camosun. The game 
                     was inspirated by the COVID-19 pandemic in 2020. Player 

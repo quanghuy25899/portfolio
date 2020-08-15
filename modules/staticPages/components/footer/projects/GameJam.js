@@ -34,7 +34,7 @@ const GameJam = () => {
                 <Meta description="A small 2D game project on Unity written on C#" />
             </Card>
             <Modal visible={modalOpen} title="Global GameJam 2019" onCancel={handleModalClose} footer={null}>
-                <p>
+                <p style={{ marginBottom: 20 }}>
                     {`This is a 2D game project me and my friend made while 
                     taking part in the Global Game Jam 2019 event. The game 
                     was about a dog got lost and had to find his way to home.`}

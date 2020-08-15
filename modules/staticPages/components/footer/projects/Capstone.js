@@ -34,7 +34,7 @@ const Capstone = () => {
                 <Meta description="A web application that uses for managing videos" />
             </Card>
             <Modal visible={modalOpen} title="Capstone Project" onCancel={handleModalClose} footer={null}>
-                <p>
+                <p style={{ marginBottom: 20 }}>
                     {`This is my capstone project, which me and two other 
                     classmates have just finished this August of 2020. 
                     This is, so far, my biggest and most professional 

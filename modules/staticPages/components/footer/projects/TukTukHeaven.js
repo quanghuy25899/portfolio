@@ -34,7 +34,7 @@ const TukTukHeaven = () => {
                 <Meta description="A small project to practice making single page website" />
             </Card>
             <Modal visible={modalOpen} title="Pizza Palace" onCancel={handleModalClose} footer={null}>
-                <p>
+                <p style={{ marginBottom: 20 }}>
                     {`This is also a small project I made after finished a 
                     Web Development course. This is a singple page website 
                     that was built on HTML, CSS, and Bootstrap. It represents an 

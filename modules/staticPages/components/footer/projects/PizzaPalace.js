@@ -34,7 +34,7 @@ const PizzaPalace = () => {
                 <Meta description="A small project to get to know HTML, CSS, Bootstrap, and PHP" />
             </Card>
             <Modal visible={modalOpen} title="Pizza Palace" onCancel={handleModalClose} footer={null}>
-                <p>
+                <p style={{ marginBottom: 20 }}>
                     {`This is a small project I made after finished a 
                     Web Development course at Camosun. It just a simple website 
                     that used HTML, CSS, Bootstrap, PHP, and Google Map plugin to 
