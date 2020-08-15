@@ -19,7 +19,7 @@ const PizzaPalace = () => {
         <>
             <Card
                 title="Pizza Palace"
-                style={{ width: 300 }}
+                style={{ width: 350 }}
                 cover={<img alt="Pizza Palace Home" src="static/img/PizzaPalaceHome.png" />}
                 actions={[
                     <Tooltip placement="top" title="More details">

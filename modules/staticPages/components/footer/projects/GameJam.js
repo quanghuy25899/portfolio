@@ -19,7 +19,7 @@ const GameJam = () => {
         <>
             <Card
                 title="Global GameJam 2019"
-                style={{ width: 300 }}
+                style={{ width: 350 }}
                 cover={<img alt="Game Jam 2019" src="static/img/GameJam2.png" />}
                 actions={[
                     <Tooltip placement="top" title="More details">

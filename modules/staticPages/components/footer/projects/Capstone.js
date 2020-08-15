@@ -19,7 +19,7 @@ const Capstone = () => {
         <>
             <Card
                 title="Capstone Project"
-                style={{ width: 300 }}
+                style={{ width: 350 }}
                 cover={<img alt="Capstone Home" src="static/img/CapstoneHome.png" />}
                 actions={[
                     <Tooltip placement="top" title="More details">

@@ -19,7 +19,7 @@ const Pandemic = () => {
         <>
             <Card
                 title="Pandemic"
-                style={{ width: 300 }}
+                style={{ width: 350 }}
                 cover={<img alt="Pandemic" src="static/img/Pandemic1.png" />}
                 actions={[
                     <Tooltip placement="top" title="More details">
@@ -31,7 +31,7 @@ const Pandemic = () => {
                 hoverable
                 bordered
             >
-                <Meta description="A 3D game project on Unity written on C#" />
+                <Meta description="A small 3D game project on Unity written on C#" />
             </Card>
             <Modal visible={modalOpen} title="Pandemic" onCancel={handleModalClose} footer={null}>
                 <p>

@@ -19,7 +19,7 @@ const TukTukHeaven = () => {
         <>
             <Card
                 title="Tuk Tuk Heaven"
-                style={{ width: 300 }}
+                style={{ width: 350 }}
                 cover={<img alt="Tuk Tuk Heaven Home" src="static/img/TukTukHeavenHome.png" />}
                 actions={[
                     <Tooltip placement="top" title="More details">
