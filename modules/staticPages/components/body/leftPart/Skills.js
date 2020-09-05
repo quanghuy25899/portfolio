@@ -6,10 +6,10 @@ const Skills = () => {
     return (
         <div id="skills" style={{ marginTop: 30 }}>
             <p className="has-text-bold">Skills</p>
-            <p>Front-end Web Development</p>
+            <p>JavaScript</p>
             <ProgressBar stepsCompleted={3} totalSteps={5} />
             <br />
-            <p>JavaScript</p>
+            <p>jQuery</p>
             <ProgressBar stepsCompleted={3} totalSteps={5} />
             <br />
             <p>React.JS / Next.JS</p>
