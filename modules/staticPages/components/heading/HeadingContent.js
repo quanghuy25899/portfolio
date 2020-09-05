@@ -3,7 +3,7 @@ import { Row, Col } from 'antd';
 
 const HeadingContent = () => {
     return (
-        <Row style={{ backgroundColor: '#4dffb8' }}>
+        <Row style={{ backgroundColor: '#008060', color: 'white' }}>
             <Col xs={24} md={8} lg={7}>
                 <img src="static/img/profilePic.jpg" alt="Profile" style={{ width: 200, height: 260 }} />
             </Col>
