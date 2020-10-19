@@ -99,33 +99,41 @@ const Achievements = () => {
             <p><b>September 2018 - August 2020</b></p>
 
             <p>
-                - Deleveloped and maintaining a Wordpress website and a website built with Next.js for a local restaurant.
-                <br />
-                <b style={{ marginLeft: 30 }}>WordPress:</b> <a href="https://alysapho.wordpress.com/" target="_blank" rel="noreferrer">
-                    Alysa&apos;s pho & banh my
+                <p>
+                    Deleveloped and maintaining a Wordpress website and a website built with Next.js for a local restaurant.
+                </p>
+
+                <a href="https://alysapho.wordpress.com/" target="_blank" rel="noreferrer" style={{ marginLeft: 50 }}>
+                    WordPress
                 </a>
-                <br />
-                <b style={{ marginLeft: 30 }}>Next.js:</b> <a href="https://alysapho.ca/" target="_blank" rel="noreferrer">
-                    Alysa&apos;s pho & banh my
+
+                <a href="https://alysapho.ca/" target="_blank" rel="noreferrer" style={{ marginLeft: 50 }}>
+                    Next.js
                 </a>
             </p>
 
             <p>
-                - Developed a web application for Camosun Innovates to manage videos. It was my Capstone project at
-                Camosun College. I was in a team of three people and I was responsible for the front-end development of
-                the application.
-                <br />
-                <a
-                    href="https://portal.witnessblanket.ca/login"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ marginLeft: 30 }}
-                >
-                    Capstone project
+                <p>
+                    Developed a web application for Camosun Innovates to manage videos. It was my Capstone project at
+                    Camosun College. I was in a team of three people and I was responsible for the front-end development of
+                    the application.
+                </p>
+
+                <p>
+                    <a
+                        href="https://portal.witnessblanket.ca/login"
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ marginLeft: 50 }}
+                    >
+                        Capstone project
                 </a>
-                <br />
-                Technologies used:
-                <Table columns={columns} dataSource={data} pagination={false} style={{ marginTop: 10 }} />
+                </p>
+
+                <p>
+                    Technologies used:
+                    <Table columns={columns} dataSource={data} pagination={false} style={{ marginTop: 10 }} />
+                </p>
             </p>
         </div>
     );
