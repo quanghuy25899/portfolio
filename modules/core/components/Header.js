@@ -1,10 +1,41 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Row, Col, Menu } from 'antd';
 import Link from 'next/link';
+import styled from 'styled-components';
+
+const StyledRow = styled(Row)`
+    position: fixed;
+    height: 60px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    transition: top 0.5s;
+`;
+
+let previousScrollPos = typeof window !== 'undefined' ? window.pageYOffset : null;
 
 const Header = () => {
+    const handleScroll = () => {
+        const currentScrollPos = window.pageYOffset;
+
+        if (previousScrollPos > currentScrollPos) {
+            document.getElementById('top-nav').style.top = '0';
+        } else {
+            document.getElementById('top-nav').style.top = '-60px';
+        }
+        previousScrollPos = currentScrollPos;
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return (() => {
+            window.removeEventListener('scroll', handleScroll);
+        });
+    }, []);
+
     return (
-        <Row gutter={10}>
+        <StyledRow gutter={10} id="top-nav">
             <Col xs={6} md={11} xl={24}>
                 <Menu mode="horizontal">
                     <Menu.Item key="1">
@@ -24,7 +55,7 @@ const Header = () => {
                     </Menu.Item>
                 </Menu>
             </Col>
-        </Row>
+        </StyledRow>
     );
 };
 

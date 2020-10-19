@@ -12,32 +12,28 @@ const StyledFooterWrapper = styled.div`
     margin-top: 70px;
 `;
 
-const StyledColumn = styled(Col)`
-    margin-bottom: 100px;
-`;
-
 const FooterContent = () => {
     return (
         <StyledFooterWrapper>
             <div id="projects" className="title" style={{ marginBottom: 40 }}>
                 Projects
             </div>
-            <Row gutter={10}>
-                <StyledColumn xs={24} md={10} lg={8}>
+            <Row gutter={[100, 100]}>
+                <Col xs={24} md={10} lg={8}>
                     <Capstone />
-                </StyledColumn>
-                <StyledColumn xs={24} md={10} lg={8}>
+                </Col>
+                <Col xs={24} md={10} lg={8}>
                     <PizzaPalace />
-                </StyledColumn>
-                <StyledColumn xs={24} md={10} lg={8}>
+                </Col>
+                <Col xs={24} md={10} lg={8}>
                     <TukTukHeaven />
-                </StyledColumn>
-                <StyledColumn xs={24} md={10} lg={8}>
+                </Col>
+                <Col xs={24} md={10} lg={8}>
                     <Pandemic />
-                </StyledColumn>
-                <StyledColumn xs={24} md={10} lg={8}>
+                </Col>
+                <Col xs={24} md={10} lg={8}>
                     <GameJam />
-                </StyledColumn>
+                </Col>
             </Row>
         </StyledFooterWrapper>
     );

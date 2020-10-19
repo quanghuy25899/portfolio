@@ -22,6 +22,7 @@ const StyledBodyWrapper = styled.div`
         color: #bfbfbf !important;
         text-decoration: underline !important;
     }
+    margin-top: 48px;
 `;
 
 const HomeContent = () => {

@@ -43,14 +43,6 @@ const PizzaPalace = () => {
                     the pizza ordering process but you will never receive your 
                     pizza.`}
                 </p>
-                <a
-                    href="http://deepblue.cs.camosun.bc.ca/~ics057/ics111/lab04/PizzaPalace/index.html"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ textDecoration: 'underline' }}
-                >
-                    Checkout the website here.
-                </a>
                 <img alt="Pizza Palace Home" src="static/img/PizzaPalaceHome.png" style={{ marginBottom: 20 }} />
                 <div className="divider" />
                 <img alt="Pizza Palace Menu" src="static/img/PizzaPalaceMenu.png" style={{ marginBottom: 20 }} />

@@ -42,14 +42,6 @@ const TukTukHeaven = () => {
                     back-end, it just simply displaying the products, price, 
                     and some informations`}
                 </p>
-                <a
-                    href="http://deepblue.cs.camosun.bc.ca/~ics057/ics111/lab05/index.html"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ textDecoration: 'underline' }}
-                >
-                    Checkout the website here.
-                </a>
                 <img alt="Tuk Tuk Heaven Home" src="static/img/TukTukHeavenHome.png" style={{ marginBottom: 20 }} />
                 <div className="divider" />
                 <img

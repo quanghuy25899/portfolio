@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Tag, Space } from 'antd';
+import { Table } from 'antd';
 
 const Achievements = () => {
     const columns = [
@@ -96,67 +96,16 @@ const Achievements = () => {
     return (
         <div id="achievements" className="section-margin">
             <p className="title">Achievements</p>
-            <p>September 2018 - August 2020</p>
+            <p><b>September 2018 - August 2020</b></p>
 
             <p>
-                - Developed and maintaining three websites using HTML, CSS, Bootstrap, JavaScript and Php.
+                - Deleveloped and maintaining a Wordpress website and a website built with Next.js for a local restaurant.
                 <br />
-                <a
-                    href="http://deepblue.cs.camosun.bc.ca/~ics057/ics111/lab04/PizzaPalace/index.html"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ marginLeft: 30 }}
-                >
-                    Pizza Palace
+                <b style={{ marginLeft: 30 }}>WordPress:</b> <a href="https://alysapho.wordpress.com/" target="_blank" rel="noreferrer">
+                    Alysa&apos;s pho & banh my
                 </a>
-                <a
-                    href="http://deepblue.cs.camosun.bc.ca/~ics057/ics111/lab05/index.html"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ marginLeft: 30 }}
-                >
-                    Tuk Tuk Heaven
-                </a>
-                <a
-                    href="http://deepblue.cs.camosun.bc.ca/~ics057/199_final_project/customerpage/thinkfood.php"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ marginLeft: 30 }}
-                >
-                    Shopping List Application
-                </a>
-            </p>
-
-            <p>
-                - Took part in Global Game Jam 2019 and created a 2D game with another classmate using Unity and C#.
                 <br />
-                <a
-                    href="https://github.com/quanghuy25899/GlobalGameJam"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ marginLeft: 30 }}
-                >
-                    GitHub link
-                </a>
-            </p>
-
-            <p>
-                - Finished a game development course and created a 3D game with another classmate using Unity and C#.
-                <br />
-                <a
-                    href="https://github.com/quanghuy25899/ICS223/tree/master/Pandemic"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ marginLeft: 30 }}
-                >
-                    GitHub link
-                </a>
-            </p>
-
-            <p>
-                - Maintaining a Wordpress website for a local restaurant.
-                <br />
-                <a href="http://phovictoria.com/" target="_blank" rel="noreferrer" style={{ marginLeft: 30 }}>
+                <b style={{ marginLeft: 30 }}>Next.js:</b> <a href="https://alysapho.ca/" target="_blank" rel="noreferrer">
                     Alysa&apos;s pho & banh my
                 </a>
             </p>
