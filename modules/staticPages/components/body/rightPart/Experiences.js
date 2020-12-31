@@ -1,24 +1,21 @@
 import React from 'react';
 import { Table, Divider } from 'antd';
-import styled from 'styled-components';
 
-import { CAMOSUN_COLUMNS, CAMOSUN_DATA, CARRO_COLUMNS, CARRO_DATA} from '../../../../constants';
-
-const StyledWrapper = styled.div`
-    .is-bold {
-        font-weight: bold;
-    }
-`;
+import { CAMOSUN_COLUMNS, CAMOSUN_DATA, CARRO_COLUMNS, CARRO_DATA } from '../../../../constants';
 
 const Experiences = () => {
     return (
-        <StyledWrapper id="experiences" className="section-margin">
+        <div id="experiences" className="section-margin">
             <p className="title">Experiences</p>
 
             <div id="carro">
                 <p>
-                    <div className="is-bold">Front End Web Developer - Contract full-time</div>
-                    <div className="is-bold">CARRO</div>
+                    <div>
+                        <b>Front End Web Developer - Contract full-time</b>
+                    </div>
+                    <div>
+                        <b>CARRO</b>
+                    </div>
                     <div>September 2020 - Present</div>
                 </p>
 
@@ -55,8 +52,12 @@ const Experiences = () => {
 
             <div id="camosun-innovates">
                 <p>
-                    <div className="is-bold">Front End Web Developer - Contract full-time</div>
-                    <div className="is-bold">Camosun Innovates</div>
+                    <div>
+                        <b>Front End Web Developer - Contract full-time</b>
+                    </div>
+                    <div>
+                        <b>Camosun Innovates</b>
+                    </div>
                     <div>September 2018 - August 2020</div>
                 </p>
 
@@ -89,7 +90,7 @@ const Experiences = () => {
                     </p>
                 </div>
             </div>
-        </StyledWrapper>
+        </div>
     );
 };
 
