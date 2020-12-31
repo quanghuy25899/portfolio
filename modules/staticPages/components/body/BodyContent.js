@@ -9,7 +9,7 @@ import Languages from './leftPart/Languages';
 import Profile from './rightPart/Profile';
 import Education from './rightPart/Education';
 import Internships from './rightPart/Internships';
-import Achievements from './rightPart/Achievements';
+import Experiences from './rightPart/Experiences';
 import FutureGoals from './rightPart/FutureGoals';
 
 const BodyContent = () => {
@@ -25,7 +25,7 @@ const BodyContent = () => {
                 <Profile />
                 <Education />
                 <Internships />
-                <Achievements />
+                <Experiences />
                 <FutureGoals />
             </Col>
         </Row>

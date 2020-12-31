@@ -48,7 +48,7 @@ const Header = () => {
                         <Link href="#internships">Internships</Link>
                     </Menu.Item>
                     <Menu.Item key="4">
-                        <Link href="#achievements">Achievements</Link>
+                        <Link href="#experiences">Experiences</Link>
                     </Menu.Item>
                     <Menu.Item key="5">
                         <Link href="#projects">Projects</Link>
