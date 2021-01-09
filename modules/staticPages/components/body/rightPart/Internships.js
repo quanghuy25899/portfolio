@@ -19,13 +19,6 @@ const Internships = () => {
                     <b>POI Apache: </b> for automatically read data from excel file then write to any field on the
                     website that needs informations.
                 </div>
-                <a
-                    href="https://github.com/quanghuy25899/Java-Programming/tree/master/WebTest"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    GitHub link
-                </a>
             </p>
         </div>
     );
