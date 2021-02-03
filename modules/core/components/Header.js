@@ -25,13 +25,13 @@ const Header = () => {
             document.getElementById('top-nav').style.top = '-60px';
         }
         previousScrollPos = currentScrollPos;
-    }
+    };
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
-        return (() => {
+        return () => {
             window.removeEventListener('scroll', handleScroll);
-        });
+        };
     }, []);
 
     return (
